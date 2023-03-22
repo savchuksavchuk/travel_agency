@@ -1,0 +1,31 @@
+.user {
+    display: flex;
+    align-items: stretch;
+
+    &__link {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        transition: color 0.3s;
+
+        &:hover {
+            color: #fee251;
+        }
+    }
+
+    &__line {
+        width: 2px;
+        background-color: #fff;
+        margin: 0 58px;
+    }
+
+    &__photo {
+        width: 24px;
+        height: 24px;
+        background-color: transparent;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,49 @@
+.slider {
+    &__bar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__control {
+        min-width: fit-content;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    &__button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    &__count {
+        min-width: fit-content;
+    }
+
+    &__title {
+        min-width: fit-content;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    &__stroke {
+        flex: 0 1 100%;
+        height: 2px;
+        background-color: #fff;
+
+        &--fixed {
+            flex: 0 0 35px;
+        }
+    }
+
+    &__viewport {
+        width: 100%;
+        overflow: hidden;
+    }
+}
