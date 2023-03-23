@@ -4,6 +4,10 @@
         display: flex;
         align-items: center;
         gap: 30px;
+
+        @include mobile {
+            display: none;
+        }
     }
 
     &__control {

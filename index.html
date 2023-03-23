@@ -1,332 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Travel</title>
-  </head>
-  <body class="body">
-    <header class="header" id="header">
-      <div class="header__bar">
-        <div class="header__logo">
-          <a href="/" class="logo">
-            trppd __
-          </a>
-        </div>
-        <div class="header__user user">
-          <a href="#" class="user__link">
-            My collection
-          </a>
-          <div class="user__line"></div>
-          <a href="#" class="user__link">
-            Galih Pambudi
-            <img
-              src="/assets/user-icon.png"
-              alt="user"
-              class="user__photo"
-            >
-          </a>
-        </div>
-      </div>
-      <div class="header__content">
-        <nav class="nav header__nav">
-          <ul class="nav__list">
-            <li class="nav__item  nav__item--selected">
-              <a href="/" class="nav__link">
-                Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#recommendation" class="nav__link">
-                Recommendation
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#explore" class="nav__link">
-                Explore
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">
-                Help
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">
-                About us
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header__data">
-          <h1 class="header__title title__t1">
-            The Walchen Lake
-          </h1>
-          <p class="header__text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias odio unde enim libero laboriosam quia ipsum ex amet qui quod. Quaerat cum hic minima possimus sit laboriosam ut sequi magni.
-          </p>
-          <a href="/" class="button header__button">
-            Read More
-          </a>
-        </div>
-      </div>
-      <img
-        src="/images/walchen.avif"
-        alt="walch"
-        class="header__background"
-      >
-    </header>
 
-    <main class="main">
-      <section class="recommendation gallery" id="recommendation">
-        <div class="container gallery__container">
-          <div class="gallery__info recommendation__info">
-            <h2 class="gallery__title title__t2">
-              Featured
-              <br>
-              Spots
-            </h2>
-            <p class="gallery__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt molestias illo at.
-            </p>
-            <a href="/" class="link gallery__link">
-              <div class="link__line"></div>
-              <span class="link__text">
-                Viev All
-              </span>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Travel</title>
+</head>
+
+<body class="body">
+  <header class="header" id="header">
+    <div class="header__bar">
+      <div class="header__logo">
+        <a href="/" class="logo">
+          trppd __
+        </a>
+      </div>
+      <div class="header__user user">
+        <a href="#" class="user__link">
+          My collection
+        </a>
+        <div class="user__line"></div>
+        <a href="#" class="user__link">
+          Galih Pambudi
+          <img src="/assets/user-icon.png" alt="user" class="user__photo">
+        </a>
+      </div>
+      <button type="button" class="header__burger burger">
+        <img src="./public/assets/burger.svg" alt="menu" class="burger__image">
+      </button>
+    </div>
+    <div class="header__content">
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item  nav__item--selected">
+            <a href="/" class="nav__link">
+              Home
             </a>
-          </div>
-          <div class="slider gallery__slider">
-            <div class="slider__bar">
-              <div class="slider__control">
-                <button type="button" class="slider__button recommendation__prev">
-                  <img src="/assets/arrow-left.svg" alt="left">
-                </button>
-                <button type="button" class="slider__button recommendation__next">
-                  <img src="/assets/arrow-right.svg" alt="right">
-                </button>
-                <span class="slider__title">
-                  Outdoors edition
-                </span>
-              </div>
-              <div class="slider__stroke"></div>
-                <div class="slider__count recommendation__count"></div>
-                <div class="slider__stroke slider__stroke--fixed"></div>
-            </div>
-            <div class="slider__viewport recommendation__viewport">
-              
-            </div>
-            <div class="slider__bar">
+          </li>
+          <li class="nav__item">
+            <a href="#recommendation" class="nav__link">
+              Recommendation
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#explore" class="nav__link">
+              Explore
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              Help
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              About us
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__data">
+        <h1 class="header__title title__t1">
+          The Walchen Lake
+        </h1>
+        <p class="header__text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias odio unde enim libero laboriosam quia
+          ipsum ex amet qui quod. Quaerat cum hic minima possimus sit laboriosam ut sequi magni.
+        </p>
+        <a href="/" class="button header__button">
+          Read More
+        </a>
+      </div>
+    </div>
+    <img src="/images/walchen.jpg" alt="walch" class="header__background">
+    <nav class="nav-mobile">
+      <button class="nav-mobile__close burger">
+        <img src="./public/assets/close.svg" alt="" class="burger__image">
+      </button>
+      <ul class="nav-mobile__list">
+        <li class="nav-mobile__item">
+          <a href="/" class="nav-mobile__link">
+            Home
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#recommendation" class="nav-mobile__link">
+            Recommendation
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#explore" class="nav-mobile__link">
+            Explore
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#" class="nav-mobile__link">
+            Help
+          </a>
+        </li>
+        <li class="nav-mobile__item">
+          <a href="#" class="nav-mobile__link">
+            About us
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="recommendation gallery" id="recommendation">
+      <div class="container gallery__container">
+        <div class="gallery__info recommendation__info">
+          <h2 class="gallery__title title__t2">
+            Featured
+            <br>
+            Spots
+          </h2>
+          <p class="gallery__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt molestias illo at.
+          </p>
+          <a href="/" class="link gallery__link">
+            <div class="link__line"></div>
+            <span class="link__text">
+              Viev All
+            </span>
+          </a>
+        </div>
+        <div class="slider gallery__slider">
+          <div class="slider__bar">
+            <div class="slider__control recommendation__control">
+              <button type="button" class="slider__button recommendation__prev">
+                <img src="/assets/arrow-left.svg" alt="left">
+              </button>
+              <button type="button" class="slider__button recommendation__next">
+                <img src="/assets/arrow-right.svg" alt="right">
+              </button>
               <span class="slider__title">
                 Outdoors edition
               </span>
-              <div class="slider__stroke"></div>
-                <div class="slider__count recommendation__count"></div>
-                <div class="slider__stroke slider__stroke--fixed"></div>
             </div>
+            <div class="slider__stroke"></div>
+            <div class="slider__count recommendation__count"></div>
+            <div class="slider__stroke slider__stroke--fixed"></div>
           </div>
-        </div>
-      </section>
-      <section class="section explore" id="explore">
-        <div class="explore">
-          <div class="explore__photo">
-            <img src="/images/maldives.avif" alt="maldives" class="explore__image">
-          </div>
-          <div class="explore__content">
-            <div class="container explore__container">
-              <div class="explore__body">
-                <h2 class="explore__title title__t1">
-                  Above 
-                  <br>
-                  The Sea
-                </h2>
-                <q class="explore__quote title__t3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, error dicta asperiores et odio voluptas tempora inventore fugit hic eligendi.
-                </q>
-                <p class="explore__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dicta! 
-                  Iste beatae odio perspiciatis eaque assumenda. Earum reiciendis eum sit et ab 
-                  necessitatibus similique facilis totam sed corrupti fugiat ducimus neque harum 
-                  <br>
-                  <br>
-                  quam voluptas esse illum, minus nam possimus. Necessitatibus unde numquam vero 
-                  quaerat odit a explicabo sit adipisci debitis! Enim, quibusdam cumque doloremque 
-                  culpa quos dolorum molestias quaerat nobis.
-                </p>
-                <a href="/" class="button explore__button">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section pick">
-        <div class="container gallery__container">
-          <div class="gallery__info pick__info">
-            <h2 class="gallery__title title__t2">
-              Editor's
-              <br>
-              Pick
-            </h2>
-            <p class="gallery__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt molestias illo at.
-            </p>
+          <div class="slider__viewport recommendation__viewport">
 
           </div>
-          <div class="slider gallery__slider">
-            <div class="slider__bar">
-              <div class="slider__control">
-                <button type="button" class="slider__button pick__prev">
-                  <img src="/assets/arrow-left.svg" alt="left">
-                </button>
-                <button type="button" class="slider__button pick__next">
-                  <img src="/assets/arrow-right.svg" alt="right">
-                </button>
-              </div>
-              <div class="slider__stroke"></div>
-                <div class="slider__count pick__count">
-                  
-                </div>
-                <div class="slider__stroke slider__stroke--fixed"></div>
-                <div class="filter pick__filter">
-                  <button type="button" class="filter__button pick__filter-button">sort by</button>
-                  <ul class="filter__select pick__select">
-                    <li data-value="name" class="filter__option pick__option">
-                      Name
-                    </li>
-                    <li data-value="location" class="filter__option pick__option">
-                      Country
-                    </li>
-                  </ul>
-                </div>
-                <div class="slider__stroke slider__stroke--fixed"></div>
-            </div>
-            <div class="slider__viewport pick__viewport"></div>
+          <div class="slider__bar">
+            <span class="slider__title">
+              Outdoors edition
+            </span>
+            <div class="slider__stroke"></div>
+            <div class="slider__count recommendation__count"></div>
+            <div class="slider__stroke slider__stroke--fixed"></div>
           </div>
         </div>
-      </section>
-      <section class="section mountains">
-        <div class="container mountains__container mountains__item--underlined">
-          <h2 class="title__t1">Mountain Collection</h2>
-          <p class="mountains__subtitle">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ut eveniet aperiam mollitia consequuntur facilis alias reprehenderit harum porro cupiditate!
-          </p>
-          <div class="mountains__list">
-            <div class="mountain-card mountains__item--underlined">
-              <div class="mountain-card__info">
-                <h3 class="mountain-card__name title__t2">
-                  Antelope Canyon
-                </h3>
-                <h4 class="mountain-card__country title__t3">
-                  USA
-                </h4>
-                <p class="mountain-card__description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, earum sapiente voluptatibus illo ab dolores possimus dolore, sunt perferendis in temporibus, quasi sint corporis. Vel!
-                </p>
-                <a href="/" class="mountain-card__link button">
-                  Read more
-                </a>
-              </div>
-              <div class="mountain-card__photo">
-                <img
-                src="/images/nevada.avif"
-                alt="ollantaytambo"
-                class="mountain-card__image"
-              >
-              </div>
-            </div>
-            <div class="mountain-card mountains__item--underlined">
-              <div class="mountain-card__info">
-                <h3 class="mountain-card__name title__t2">
-                  Antelope Canyon
-                </h3>
-                <h4 class="mountain-card__country title__t3">
-                  USA
-                </h4>
-                <p class="mountain-card__description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, earum sapiente voluptatibus illo ab dolores possimus dolore, sunt perferendis in temporibus, quasi sint corporis. Vel!
-                </p>
-                <a href="/" class="mountain-card__link button">
-                  Read more
-                </a>
-              </div>
-              <div class="mountain-card__photo">
-                <img
-                src="/images/nevada.avif"
-                alt="ollantaytambo"
-                class="mountain-card__image"
-              >
-              </div>
-            </div>
-            <div class="mountain-card">
-              <div class="mountain-card__info">
-                <h3 class="mountain-card__name title__t2">
-                  Antelope Canyon
-                </h3>
-                <h4 class="mountain-card__country title__t3">
-                  USA
-                </h4>
-                <p class="mountain-card__description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, earum sapiente voluptatibus illo ab dolores possimus dolore, sunt perferendis in temporibus, quasi sint corporis. Vel!
-                </p>
-                <a href="/" class="mountain-card__link button">
-                  Read more
-                </a>
-              </div>
-              <div class="mountain-card__photo">
-                <img
-                src="/images/nevada.avif"
-                alt="ollantaytambo"
-                class="mountain-card__image"
-              >
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          src="/images/mountains-background.avif"
-          alt="mountains"
-          class="mountains__background"
-        >
-      </section>
-      <section class="section subscribe">
-        <p class="sub-form__title">
-          Subscribe to our news latter
-        </p>
-        <form action="#" class="subscribe__form sub-form">
-          <div class="sub-form__area">
-            <input type="text" class="sub-form__input" placeholder="Your Email">
-            <button class="sub-form__button button">
-              Subscribe
-            </button>
-          </div>
-          <img src="/images/map.png" alt="" class="sub-form__background">
-        </form>
-      </section>
-    </main>
-    <footer class="footer">
-      <a href="#header" class="logo">
-        trppd __
-      </a>
-      <span class="footer__copyright">
-        &#169; 2017-2018
-      </span>
-      <div class="footer__social">
-        <a href="/" class="footer__link">
-          <img src="/assets/instagram.svg" alt="instagram" class="footer__icon">
-        </a>
-        <a href="/" class="footer__link">
-          <img src="/assets/facebook.svg" alt="instagram" class="footer__icon">
-        </a>
-        <a href="/" class="footer__link">
-          <img src="/assets/twitter.svg" alt="instagram" class="footer__icon">
-        </a>
       </div>
-    </footer>
-    <script type="module" src="/main.js"></script>
-  </body>
+    </section>
+    <section class="section explore" id="explore">
+      <div class="explore">
+        <div class="explore__photo">
+          <img src="/images/maldives.jpg" alt="maldives" class="explore__image">
+        </div>
+        <div class="explore__content">
+          <div class="container explore__container">
+            <div class="explore__body">
+              <h2 class="explore__title title__t1">
+                Above
+                <br>
+                The Sea
+              </h2>
+              <q class="explore__quote title__t3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, error dicta asperiores et odio
+                voluptas tempora inventore fugit hic eligendi.
+              </q>
+              <p class="explore__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dicta!
+                Iste beatae odio perspiciatis eaque assumenda. Earum reiciendis eum sit et ab
+                necessitatibus similique facilis totam sed corrupti fugiat ducimus neque harum
+                <br>
+                <br>
+                quam voluptas esse illum, minus nam possimus. Necessitatibus unde numquam vero
+                quaerat odit a explicabo sit adipisci debitis! Enim, quibusdam cumque doloremque
+                culpa quos dolorum molestias quaerat nobis.
+              </p>
+              <a href="/" class="button explore__button">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section pick">
+      <div class="container gallery__container">
+        <div class="gallery__info pick__info">
+          <h2 class="gallery__title title__t2">
+            Editor's
+            <br>
+            Pick
+          </h2>
+          <p class="gallery__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt molestias illo at.
+          </p>
+
+        </div>
+        <div class="slider gallery__slider">
+          <div class="slider__bar">
+            <div class="slider__control">
+              <button type="button" class="slider__button pick__prev">
+                <img src="/assets/arrow-left.svg" alt="left">
+              </button>
+              <button type="button" class="slider__button pick__next">
+                <img src="/assets/arrow-right.svg" alt="right">
+              </button>
+            </div>
+            <div class="slider__stroke"></div>
+            <div class="slider__count pick__count">
+
+            </div>
+            <div class="slider__stroke slider__stroke--fixed"></div>
+            <div class="filter pick__filter">
+              <button type="button" class="filter__button pick__filter-button">sort by</button>
+              <ul class="filter__select pick__select">
+                <li data-value="name" class="filter__option pick__option">
+                  Name
+                </li>
+                <li data-value="location" class="filter__option pick__option">
+                  Country
+                </li>
+              </ul>
+            </div>
+            <div class="slider__stroke slider__stroke--fixed"></div>
+          </div>
+          <div class="slider__viewport pick__viewport"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section mountains">
+      <div class="container mountains__container mountains__item--underlined">
+        <h2 class="mountains__title title__t1">Mountain Collection</h2>
+        <p class="mountains__subtitle">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ut eveniet aperiam mollitia
+          consequuntur facilis alias reprehenderit harum porro cupiditate!
+        </p>
+        <div class="mountains__list">
+          <div class="mountain-card mountains__item--underlined">
+            <div class="mountain-card__info">
+              <h3 class="mountain-card__name title__t2">
+                Mountain
+              </h3>
+              <h4 class="mountain-card__country title__t3">
+                USA
+              </h4>
+              <p class="mountain-card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, earum sapiente voluptatibus illo ab
+                dolores possimus dolore, sunt perferendis in temporibus, quasi sint corporis. Vel!
+              </p>
+              <a href="/" class="mountain-card__link button">
+                Read more
+              </a>
+            </div>
+            <div class="mountain-card__photo">
+              <img src="/images/nevada.jpg" alt="ollantaytambo" class="mountain-card__image">
+            </div>
+          </div>
+          <div class="mountain-card mountains__item--underlined">
+            <div class="mountain-card__info">
+              <h3 class="mountain-card__name title__t2">
+                Mountain
+              </h3>
+              <h4 class="mountain-card__country title__t3">
+                USA
+              </h4>
+              <p class="mountain-card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, earum sapiente voluptatibus illo ab
+                dolores possimus dolore, sunt perferendis in temporibus, quasi sint corporis. Vel!
+              </p>
+              <a href="/" class="mountain-card__link button">
+                Read more
+              </a>
+            </div>
+            <div class="mountain-card__photo">
+              <img src="/images/nevada.jpg" alt="ollantaytambo" class="mountain-card__image">
+            </div>
+          </div>
+          <div class="mountain-card">
+            <div class="mountain-card__info">
+              <h3 class="mountain-card__name title__t2">
+                Mountain
+              </h3>
+              <h4 class="mountain-card__country title__t3">
+                USA
+              </h4>
+              <p class="mountain-card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, earum sapiente voluptatibus illo ab
+                dolores possimus dolore, sunt perferendis in temporibus, quasi sint corporis. Vel!
+              </p>
+              <a href="/" class="mountain-card__link button">
+                Read more
+              </a>
+            </div>
+            <div class="mountain-card__photo">
+              <img src="/images/nevada.jpg" alt="ollantaytambo" class="mountain-card__image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="/images/mountains-background.jpg" alt="mountains" class="mountains__background">
+    </section>
+    <section class="section subscribe">
+      <p class="subscribe__title">
+        Subscribe to our news latter
+      </p>
+      <form action="#" class="subscribe__form sub-form">
+        <div class="sub-form__area">
+          <input type="text" class="sub-form__input" placeholder="Your Email">
+          <button class="sub-form__button button">
+            Subscribe
+          </button>
+        </div>
+        <img src="/images/map.png" alt="" class="sub-form__background">
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <a href="#header" class="logo">
+      trppd __
+    </a>
+    <span class="footer__copyright">
+      &#169; 2017-2018
+    </span>
+    <div class="footer__social">
+      <a href="/" class="footer__link">
+        <img src="/assets/instagram.svg" alt="instagram" class="footer__icon">
+      </a>
+      <a href="/" class="footer__link">
+        <img src="/assets/facebook.svg" alt="instagram" class="footer__icon">
+      </a>
+      <a href="/" class="footer__link">
+        <img src="/assets/twitter.svg" alt="instagram" class="footer__icon">
+      </a>
+    </div>
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

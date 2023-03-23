@@ -11,6 +11,10 @@
         @include tablet {
             padding-right: 50px;
         }
+
+        @include mobile {
+            display: none;
+        }
     }
 
     &__image {
@@ -22,6 +26,10 @@
     &__content {
         flex: 0 0 100%;
         transform: translateX(-50%);
+
+        @include mobile {
+            transform: translateX(0);
+        }
     }
 
     &__container {
@@ -31,6 +39,10 @@
 
     &__body {
         flex: 0 1 50%;
+
+        @include mobile {
+            flex: 0 1 100%;
+        }
     }
 
     &__quote {
@@ -39,14 +51,26 @@
         font-style: italic;
         font-size: 18px;
         font-weight: 400;
+
+        @include mobile {
+            margin-top: 20px;
+        }
     }
 
     &__text {
         margin-top: 65px;
         max-width: 330px;
+
+        @include mobile {
+            margin-top: 20px;
+        }
     }
 
     &__button {
         margin-top: 60px;
+
+        @include mobile {
+            margin-top: 20px;
+        }
     }
 }

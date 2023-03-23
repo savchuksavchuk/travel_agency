@@ -8,11 +8,21 @@
     max-width: 520px;
     padding-bottom: 100px;
 
+    @include mobile {
+        padding-bottom: 20px;
+    }
+
     &__area {
         display: flex;
         margin-top: 95px;
         width: 100%;
         gap: 20px;
+
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
     }
 
     &__input {
@@ -24,6 +34,11 @@
         padding: 0 20px;
         color: $black;
         font-weight: 600;
+        padding: 16px 40px;
+
+        &--error {
+            outline: 2px solid red;
+        }
     }
 
     &__background {

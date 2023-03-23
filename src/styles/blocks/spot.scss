@@ -4,6 +4,10 @@
     display: flex;
     flex-direction: column;
 
+    @include mobile {
+        max-width: none;
+    }
+
     &__photo {
         padding-bottom: 100%;
         position: relative;
@@ -21,6 +25,10 @@
 
     &__name {
         margin-top: 50px;
+
+        @include mobile {
+            margin-top: 15px;
+        }
     }
 
     &__country {
@@ -31,6 +39,10 @@
         flex: 0 1 100%;
         font-size: 14px;
         margin-top: 35px;
+
+        @include mobile {
+            display: none;
+        }
     }
 
     &__link {
@@ -61,6 +73,10 @@
                     width: 100%;
                 }
             }
+        }
+
+        @include mobile {
+            margin-top: 0;
         }
     }
 }

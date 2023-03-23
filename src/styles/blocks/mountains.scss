@@ -9,6 +9,12 @@
         }
     }
 
+    &__title {
+        @include mobile {
+            margin-top: 30px;
+        }
+    }
+
     &__subtitle {
         margin-top: 50px;
         max-width: 360px;
@@ -32,10 +38,14 @@
         left: 0;
         display: block;
         z-index: -1;
+        object-fit: cover;
+
+        @include mobile {
+            display: none;
+        }
     }
 
     &__item {
-
         &--underlined {
             border-bottom: 2px solid $light-gray;
         }
@@ -50,6 +60,10 @@
         left: 0;
         z-index: -1;
         background: linear-gradient(to bottom, $gray, transparent, $gray);
+
+        @include mobile {
+            display: none;
+        }
     }
 
     &:before {
@@ -61,5 +75,9 @@
         left: 0;
         z-index: -1;
         background: $gray;
+
+        @include mobile {
+            height: 100%;
+        }
     }
 }

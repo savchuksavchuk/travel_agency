@@ -2,9 +2,9 @@
 @import './utils/_mixins.scss';
 @import './blocks/general.scss';
 @import './typoghraphy/title.scss';
+@import './blocks/user.scss';
 @import './blocks/header.scss';
 @import './blocks/button.scss';
-@import './blocks/user.scss';
 @import './blocks/logo.scss';
 @import './blocks/nav.scss';
 @import './blocks/container.scss';
@@ -24,3 +24,5 @@
 @import './blocks/subscribe.scss';
 @import './blocks/subform.scss';
 @import './blocks/footer.scss';
+@import './blocks/burger.scss';
+@import './blocks/nav-mobile.scss';

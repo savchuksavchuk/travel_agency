@@ -4,6 +4,10 @@
   flex-direction: column;
   position: relative;
 
+  @include mobile {
+    height: 100vh;
+  }
+
   &:after {
     content: '';
     width: 100%;
@@ -24,6 +28,12 @@
     @include tablet {
       margin-right: 40px;
     }
+
+    @include mobile {
+      background-color: $orange;
+      margin-right: 0;
+      padding: 0 30px;
+    }
   }
 
   &__logo {
@@ -34,6 +44,24 @@
 
     @include tablet {
       max-width: 250px;
+    }
+
+    @include mobile {
+      padding: 25px 0;
+    }
+  }
+
+  &__user {
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__burger {
+    display: none;
+
+    @include mobile {
+      display: block;
     }
   }
 
@@ -48,6 +76,10 @@
     @include tablet {
       max-width: 200px;
     }
+
+    @include mobile {
+      display: none;
+    }
   }
 
   &__data {
@@ -60,6 +92,11 @@
 
     @include tablet {
       margin-left: 60px;
+    }
+
+    @include mobile {
+      margin: auto;
+      padding: 0 10px;
     }
   }
 
