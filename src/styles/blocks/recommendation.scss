@@ -1,0 +1,14 @@
+.recommendation {
+    background-color: $gray;
+
+    &__info {
+        padding-top: 145px;
+    }
+
+    &__viewport {
+        margin: 190px 0 65px;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+}

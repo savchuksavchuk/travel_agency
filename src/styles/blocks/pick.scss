@@ -1,0 +1,27 @@
+.pick {
+    background-color: $gray;
+
+    &__info {
+        margin-top: 20px;
+    }
+
+    &__item {
+        &:nth-child(1) {
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+
+        &:nth-child(5) {
+            grid-column: span 2;
+        }
+    }
+
+    &__viewport {
+        margin-top: 25px;
+        grid-gap: 60px;
+        aspect-ratio: 1/1;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}

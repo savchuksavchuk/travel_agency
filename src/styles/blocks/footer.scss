@@ -1,0 +1,29 @@
+.footer {
+    padding: 40px 60px;
+    background-color: $orange;
+    display: flex;
+    justify-content: space-between;
+
+    &__copyright {
+        color: $black;
+    }
+
+    &__social {
+        display: flex;
+        gap: 25px;
+    }
+
+    &__link {
+        width: 16px;
+        height: 16px;
+    }
+
+    &__icon {
+        width: 100%;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

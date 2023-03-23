@@ -1,0 +1,28 @@
+.link {
+    display: flex;
+    align-items: baseline;
+    text-decoration: none;
+    color: $white;
+    font-size: 14px;
+
+    &:hover &__line {
+        background-color: $orange;
+    }
+
+    &:hover &__text {
+        color: $orange;
+    }
+
+    &__line {
+        flex: 0 1 100%;
+        height: 2px;
+        background-color: $white;
+        transition: background-color 0.3s;
+    }
+
+    &__text {
+        flex: 0 1 100%;
+        text-align: right;
+        transition: color 0.3s;
+    }
+}
