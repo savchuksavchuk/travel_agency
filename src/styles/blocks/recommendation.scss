@@ -3,6 +3,10 @@
 
     &__info {
         padding-top: 145px;
+
+        @include tablet {
+            padding-top: 50px;
+        }
     }
 
     &__viewport {
@@ -10,5 +14,9 @@
         display: flex;
         justify-content: space-between;
         gap: 15px;
+
+        @include tablet {
+            margin: 40px 0 40px;
+        }
     }
 }

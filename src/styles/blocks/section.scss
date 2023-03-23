@@ -1,3 +1,7 @@
 .section {
     padding-top: 150px;
+
+    @include tablet {
+        padding-top: 100px;
+    }
 }

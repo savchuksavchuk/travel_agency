@@ -3,6 +3,10 @@
 
     &__container {
         padding-left: 180px;
+
+        @include tablet {
+            padding-left: 30px;
+        }
     }
 
     &__subtitle {
@@ -14,6 +18,10 @@
         margin-top: 120px;
         display: flex;
         flex-direction: column;
+
+        @include tablet {
+            margin-top: 40px;
+        }
     }
 
     &__background {
