@@ -2,72 +2,72 @@
     "name": "Flatiron",
     "location": "USA",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/flatiron.avif"
+    "img": "./images/flatiron.avif"
 },
 {
     "name": "Ollantaytambo",
     "location": "Peru",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/ollantaytambo.avif"
+    "img": "./images/ollantaytambo.avif"
 },
 {
     "name": "Antelope Canyon",
     "location": "USA",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/antelope-canyon.avif"
+    "img": "./images/antelope-canyon.avif"
 },
 {
     "name": "Lake Louise",
     "location": "Canada",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/lake-louise.avif"
+    "img": "./images/lake-louise.avif"
 },
 {
     "name": "The Walchen Lake",
     "location": "Germany",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/walchen.avif"
+    "img": "./images/walchen.avif"
 },
 {
     "name": "Niagara",
     "location": "USA",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/niagara.avif"
+    "img": "./images/niagara.avif"
 },
 {
     "name": "Maldives",
     "location": "Asia",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/maldives.avif"
+    "img": "./images/maldives.avif"
 },
 {
     "name": "Eiffel Tower",
     "location": "France",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/eiffel.avif"
+    "img": "./images/eiffel.avif"
 },
 {
     "name": "Venice",
     "location": "Italy",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/venice.avif"
+    "img": "./images/venice.avif"
 },
 {
     "name": "Colliseum",
     "location": "Italy",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/colliseum.avif"
+    "img": "./images/colliseum.avif"
 },
 {
     "name": "Pisa",
     "location": "Italy",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/pisa.avif"
+    "img": "./images/pisa.avif"
 },
 {
     "name": "Le Mont-Saint-Michel",
     "location": "Italy",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa adipisci dolorum necessitatibus nostrum quod!",
-    "img": "/images/sant-mishel.avif"
+    "img": "./images/sant-mishel.avif"
 }
 ]
