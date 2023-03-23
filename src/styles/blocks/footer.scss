@@ -3,6 +3,12 @@
     background-color: $orange;
     display: flex;
     justify-content: space-between;
+    
+    @include mobile {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
 
     &__copyright {
         color: $black;
@@ -12,11 +18,20 @@
     &__social {
         display: flex;
         gap: 25px;
+
+        @include mobile {
+            gap: 30px;
+        }
     }
 
     &__link {
         width: 16px;
         height: 16px;
+
+        @include mobile {
+            width: 28px;
+            height: 28px;
+        }
     }
 
     &__icon {
